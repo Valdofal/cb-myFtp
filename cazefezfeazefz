@@ -1,8 +1,0 @@
-  let waitInput = function () {
-    rl.question('',(answer)=> {
-      if (answer == 'quit') rl.close()
-      else {
-        waitInput()
-      }
-  })
-}
